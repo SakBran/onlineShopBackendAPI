@@ -1,0 +1,32 @@
+﻿@model IEnumerable<onlineShopBackend.Models.categoryModel>
+
+@{
+    ViewBag.Title = "Image Setting";
+}
+
+<h2>Image Setting</h2>
+
+<p>
+  
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.cat_name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cat_name)
+            </td>
+            <td>
+                <a href="/onlineShopBackend/categorySettingImages/@item.cat_id">Edit</a>
+            </td>
+        </tr>
+    }
+
+</table>
