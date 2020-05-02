@@ -178,6 +178,7 @@
     <Compile Include="Controllers\categorySettingModelsController.cs" />
     <Compile Include="Controllers\deliveryListController.cs" />
     <Compile Include="Controllers\deliveryModelsController.cs" />
+    <Compile Include="Controllers\generalSearchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\inputQtyModelsController.cs" />
     <Compile Include="Controllers\mainItemModelsController.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="Controllers\uploadController.cs" />
     <Compile Include="Controllers\userAuthenicationController.cs" />
     <Compile Include="Controllers\userModelsController.cs" />
+    <Compile Include="Controllers\userOrderTrackingController.cs" />
     <Compile Include="Controllers\userSettingModelsController.cs" />
     <Compile Include="Controllers\userValidation.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -323,6 +325,7 @@
     <Compile Include="Viewmodels\checkTypeUser.cs" />
     <Compile Include="Viewmodels\ImgViewModel.cs" />
     <Compile Include="Viewmodels\orderDetialModel.cs" />
+    <Compile Include="Viewmodels\orderTrackingModel.cs" />
     <Compile Include="Viewmodels\qtyBalanceReportModel.cs" />
     <Compile Include="Viewmodels\searchVM.cs" />
     <Compile Include="Viewmodels\subItemLabelModel.cs" />

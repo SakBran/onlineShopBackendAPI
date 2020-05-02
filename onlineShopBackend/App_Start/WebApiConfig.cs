@@ -8,7 +8,7 @@ namespace onlineShopBackend
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services
-            var cors = new EnableCorsAttribute("https://sakbran.github.io,http://localhost:4200,http://localhost,http://localhost:8080,http://localhost:3000,http://172.16.108.77:8080", "*", "*");
+            var cors = new EnableCorsAttribute("http://localhost:8100,http://localhost:8000,https://sakbran.github.io,http://localhost:4200,http://localhost:4201,http://localhost,http://localhost:8080,http://localhost:3000,http://172.16.108.77:8080", "*", "*");
             cors.SupportsCredentials = true;
             config.EnableCors(cors);
             // Web API routes

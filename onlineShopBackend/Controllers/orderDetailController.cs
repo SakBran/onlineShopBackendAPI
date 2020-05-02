@@ -41,6 +41,8 @@ namespace onlineShopBackend.Controllers
             return await db.Database.SqlQuery<orderDetialModel>(query).ToListAsync();
         }
 
+     
+
         // PUT: api/OrderModels/5
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> Put(int id,orderQtyModel[] orderQtyModels)
